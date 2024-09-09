@@ -28,8 +28,7 @@ let package = Package(
         dependencies: [
             "Quick",
             "Nimble"
-        ],
-        path: "Source"
+        ]
     ),
     .testTarget(
       name: "PitchyTests",
@@ -38,7 +37,6 @@ let package = Package(
         "Quick",
         "Nimble"
       ],
-      path: "PitchyTests",
       exclude: [
         "Mac/Info.plist",
         "iOS/Info.plist"
