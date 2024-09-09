@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,10 +33,6 @@
 		D5DF49EF1C2EE85A00343F13 /* WaveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF49B71C2EE67800343F13 /* WaveCalculator.swift */; };
 		D5DF4A101C2EE95600343F13 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DF49D21C2EE72E00343F13 /* Pitchy.framework */; };
 		D5DF4A1F1C2EE96D00343F13 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DF49DF1C2EE77A00343F13 /* Pitchy.framework */; };
-		D5DF4A2D1C2EEAE400343F13 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DF4A2B1C2EEAE400343F13 /* Quick.framework */; };
-		D5DF4A2E1C2EEAE400343F13 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DF4A2C1C2EEAE400343F13 /* Nimble.framework */; };
-		D5DF4A311C2EEAF200343F13 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DF4A2F1C2EEAF200343F13 /* Quick.framework */; };
-		D5DF4A321C2EEAF200343F13 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DF4A301C2EEAF200343F13 /* Nimble.framework */; };
 		D5DF4A331C2EEB5200343F13 /* NoteCalculatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF49FC1C2EE8AC00343F13 /* NoteCalculatorSpec.swift */; };
 		D5DF4A341C2EEB5200343F13 /* PitchCalculatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF49FD1C2EE8AC00343F13 /* PitchCalculatorSpec.swift */; };
 		D5DF4A351C2EEB5200343F13 /* WaveCalculatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF49FE1C2EE8AC00343F13 /* WaveCalculatorSpec.swift */; };
@@ -87,10 +83,6 @@
 		D5DF4A1A1C2EE96D00343F13 /* Pitchy-Mac-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitchy-Mac-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DF4A261C2EE9FF00343F13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5DF4A281C2EE9FF00343F13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5DF4A2B1C2EEAE400343F13 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		D5DF4A2C1C2EEAE400343F13 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		D5DF4A2F1C2EEAF200343F13 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		D5DF4A301C2EEAF200343F13 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5DF4A2D1C2EEAE400343F13 /* Quick.framework in Frameworks */,
-				D5DF4A2E1C2EEAE400343F13 /* Nimble.framework in Frameworks */,
 				D5DF4A101C2EE95600343F13 /* Pitchy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,8 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5DF4A311C2EEAF200343F13 /* Quick.framework in Frameworks */,
-				D5DF4A321C2EEAF200343F13 /* Nimble.framework in Frameworks */,
 				D5DF4A1F1C2EE96D00343F13 /* Pitchy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,10 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				D51575A01C330432006F8E75 /* PitchyPlayground-iOS.playground */,
-				D5DF4A2F1C2EEAF200343F13 /* Quick.framework */,
-				D5DF4A301C2EEAF200343F13 /* Nimble.framework */,
-				D5DF4A2B1C2EEAE400343F13 /* Quick.framework */,
-				D5DF4A2C1C2EEAE400343F13 /* Nimble.framework */,
 				D5DF49B21C2EE67800343F13 /* Source */,
 				D5DF499A1C2EE43D00343F13 /* Pitchy */,
 				D5DF49A61C2EE43E00343F13 /* PitchyTests */,
@@ -375,7 +359,7 @@
 				TargetAttributes = {
 					D5DF49D11C2EE72E00343F13 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = "";
 					};
 					D5DF49DE1C2EE77A00343F13 = {
 						CreatedOnToolsVersion = 7.2;
@@ -383,7 +367,7 @@
 					};
 					D5DF4A0A1C2EE95600343F13 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = "";
 					};
 					D5DF4A191C2EE96D00343F13 = {
 						CreatedOnToolsVersion = 7.2;
@@ -396,9 +380,14 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D5DF498E1C2EE43D00343F13;
+			packageReferences = (
+				6509AE402C8F615D003F4040 /* XCRemoteSwiftPackageReference "Quick" */,
+				6509AE412C8F6175003F4040 /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
 			productRefGroup = D5DF49991C2EE43D00343F13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -667,8 +656,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Pitchy/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-iOS";
 				PRODUCT_NAME = Pitchy;
 				SKIP_INSTALL = YES;
@@ -687,12 +680,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Pitchy/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-iOS";
 				PRODUCT_NAME = Pitchy;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -710,8 +708,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Pitchy/Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-Mac";
 				PRODUCT_NAME = Pitchy;
 				SDKROOT = macosx;
@@ -733,13 +735,18 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Pitchy/Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-Mac";
 				PRODUCT_NAME = Pitchy;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -753,7 +760,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PitchyTests/iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -769,10 +780,15 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PitchyTests/iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -788,7 +804,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PitchyTests/Mac/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-Mac-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -808,12 +828,17 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PitchyTests/Mac/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadymmarkov.Pitchy-Mac-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -868,6 +893,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6509AE402C8F615D003F4040 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.0;
+			};
+		};
+		6509AE412C8F6175003F4040 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D5DF498F1C2EE43D00343F13 /* Project object */;
 }
