@@ -26,8 +26,6 @@ let package = Package(
     .target(
         name: "Pitchy",
         dependencies: [
-            "Quick",
-            "Nimble"
         ]
     ),
     .testTarget(
